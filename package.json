@@ -1,7 +1,7 @@
 {
   "name": "vader-showcase",
   "version": "0.1.0",
-  "homepage": "https://vaderj.github.io/vaderj.github.io",
+  "homepage": "https://vaderj.github.io/vaderj.github.io/",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.16.12",
