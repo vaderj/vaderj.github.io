@@ -1,9 +1,9 @@
 import * as React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Container,Row, Col } from 'react-bootstrap';
-import { SPFetchClient } from "@pnp/nodejs";
-import { sp,SPRest } from "@pnp/sp";
-import { bootstrap } from 'pnp-auth'
+//import { SPFetchClient } from "@pnp/nodejs";
+//import { sp,SPRest } from "@pnp/sp";
+//import { bootstrap } from 'pnp-auth'
 
 /*
 
@@ -11,7 +11,7 @@ import { bootstrap } from 'pnp-auth'
       <AppPermissionRequest Scope="http://sharepoint/content/sitecollection" Right="FullControl"/>
     </AppPermissionRequests>
 
-*/
+
 
 const credentialOptions = {
     'clientId' : 'fbf1b7b9-d927-4c0a-b856-2ef5206ab3d0',
@@ -19,6 +19,8 @@ const credentialOptions = {
   }
 
 const siteUrl = 'https://vader-web.sharepoint.com' ;
+*/
+
 
 export const FieldOrgComponent:React.FunctionComponent<{debug:boolean;}> = (props) => {
     // we call setup to use the node client

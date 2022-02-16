@@ -1,6 +1,7 @@
 {
   "name": "vader-showcase",
   "version": "0.1.0",
+  "homepage": "https://vaderj.github.io/vaderj.github.io",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.16.12",
@@ -22,6 +23,7 @@
     "crypto-js": "^4.1.1",
     "d3": "^7.3.0",
     "fg-loadcss": "^3.1.0",
+    "gh-pages": "^3.2.3",
     "https-proxy-agent": "^5.0.0",
     "jquery": "^3.6.0",
     "leaflet": "^1.7.1",
@@ -42,7 +44,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
