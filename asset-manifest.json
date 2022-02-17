@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/vaderj.github.io/static/css/main.14ba6f40.css",
-    "main.js": "/vaderj.github.io/static/js/main.8c626d0a.js",
-    "static/js/787.d68a27fc.chunk.js": "/vaderj.github.io/static/js/787.d68a27fc.chunk.js",
-    "index.html": "/vaderj.github.io/index.html",
-    "main.14ba6f40.css.map": "/vaderj.github.io/static/css/main.14ba6f40.css.map",
-    "main.8c626d0a.js.map": "/vaderj.github.io/static/js/main.8c626d0a.js.map",
-    "787.d68a27fc.chunk.js.map": "/vaderj.github.io/static/js/787.d68a27fc.chunk.js.map"
+    "main.css": "./static/css/main.14ba6f40.css",
+    "main.js": "./static/js/main.633af6f1.js",
+    "static/js/787.d68a27fc.chunk.js": "./static/js/787.d68a27fc.chunk.js",
+    "index.html": "./index.html",
+    "main.14ba6f40.css.map": "./static/css/main.14ba6f40.css.map",
+    "main.633af6f1.js.map": "./static/js/main.633af6f1.js.map",
+    "787.d68a27fc.chunk.js.map": "./static/js/787.d68a27fc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.14ba6f40.css",
-    "static/js/main.8c626d0a.js"
+    "static/js/main.633af6f1.js"
   ]
 }
